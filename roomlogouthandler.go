@@ -10,7 +10,7 @@ import (
 	"666.com/gameserver/framework/msg"
 	"666.com/gameserver/framework/network"
 	"666.com/gameserver/framework/rpcmsg"
-	"https://github.com/new888-cryptocity/netproto"
+	"github.com/new888-cryptocity/netproto"
 	"github.com/golang/protobuf/proto"
 )
 
