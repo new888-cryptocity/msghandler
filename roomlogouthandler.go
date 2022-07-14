@@ -183,7 +183,7 @@ func (h *RoomLogoutHandler) getUserGameList(ctx *module.MouduleCtx, clt *network
 		}
 		gameID := ret[0].GetSingleValueInt32("GameID")
 		mlog.Debug("GameID =  %d", gameID)
-		data.GameList = append(data.GameList, &netproto.UserGameListInfo{GameID: &gameID, LoginTime: &loginTimeUnix})
+		//data.GameList = append(data.GameList, &netproto.UserGameListInfo{GameID: &gameID, LoginTime: &loginTimeUnix})
 
 	})
 	/*
