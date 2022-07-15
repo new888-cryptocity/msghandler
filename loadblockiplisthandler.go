@@ -7,7 +7,7 @@ import (
 	"666.com/gameserver/framework/module"
 	"666.com/gameserver/framework/msg"
 	"666.com/gameserver/framework/network"
-	"666.com/gameserver/netproto"
+	"github.com/new888-cryptocity/netproto"
 )
 
 //加載封鎖IP
