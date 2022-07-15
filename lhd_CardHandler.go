@@ -4,7 +4,7 @@ import (
 	"crypto/sha256"
 	"fmt"
 
-	"github.com/new888-cryptocity/cybavo"
+	"github.com/xinholib/cybavo"
 	"666.com/gameserver/dbserver/src/dal/utility"
 	"666.com/gameserver/framework/db"
 	"666.com/gameserver/framework/mlog"
